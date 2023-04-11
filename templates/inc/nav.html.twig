@@ -7,7 +7,7 @@
 {#
            {% if app.user %}
 
-              <li><a href="{{ path('') }}" title="Se déconnecter">Se déconnecter ({{ app.user.pseudo }})</a></li>
+              <li><a href="{{ path('') }}" title="Se déconnecter">Se déconnecter ({{ app.participant.prenom }})</a></li>
 
            {% if is_granted("ROLE_ADMIN") %}
                     <li><a href="{{ path('admin_dashboard') }}" title="Admin Dashboard">Admin</a></li>
