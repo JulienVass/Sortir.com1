@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(#f6f2f2, #cbdef8);
+    background-attachment: fixed;
+    color: #090000;
+    font-family: 'Georgia', serif;
+}
+nav{
+    text-align: right;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+nav li {
+    margin-right: 1rem;
+}
+main{
+    flex: 1;
+}
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 5px;
+}
+body > .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #5eb5e0;
+    padding: 10px;
+}
